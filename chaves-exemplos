@@ -1,0 +1,7 @@
+times = {}
+
+for i in range (1,6):
+    times[f'{i}°'] = str(input('digite o nome do time'))
+
+for chave, valor in times.items():
+        print(f'{chave} - {valor}')
